@@ -1,0 +1,137 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container2{
+    justify-content: center;
+    align-items: center;
+    width: 60vw;   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.filterContainer{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5px;
+}
+
+.filterBtn{
+    width: 70px;
+    padding: 2px;
+    margin-left: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+.filterBtn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 37, 37);
+}
+.filterBtnUnselect{
+    width: 70px;
+    padding: 2px;
+    margin-left: 5px;
+    color: red;
+    background-color: rgb(255, 215, 215);
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+.filterBtnUnselect:hover{
+    background-color: rgb(255, 84, 71);
+    color: white;
+}
+
+
+.taskInput{
+    border: 1px solid gray;
+    width: 35vw;
+    border-radius: 5px;
+    font-size: large;
+    height: 40px;
+    margin-right: 2vw;
+}
+.addTaskBtn{
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(189, 189, 255);
+    color:rgb(32, 32, 117);
+}
+.addTaskBtn:hover { 
+    background-color: rgb(43, 43, 255);
+    color: white;
+}
+
+.task{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    list-style: none;
+    height: 40px;
+    box-shadow: 3px 3px 2px rgba(172, 1, 1, 0.2);
+}
+.taskName{
+    font-size: large;
+    width: 100%;
+    color: red;
+    padding: 15px;
+}
+.editBtn{
+    border: 1px solid #999;
+    width: 40px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.editBtn:hover{
+    background-color: rgb(195, 195, 255);
+    color: white;
+}
+.removeBtn{
+    border: 1px solid #999;
+    width: 40px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(160, 67, 67);  
+}
+.removeBtn:hover{
+    background-color: rgb(255, 195, 195);
+    color: white;
+}
+.changeBtn{
+    border: 1px solid rgb(67, 160, 67);
+    width: 40px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(67, 160, 67);
+}
+.changeBtn:hover{
+    background-color: rgb(67, 160, 67);
+    color: white;
+}
+.doneBtn{
+    border: 1px solid #869e6a;
+    width: 40px;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.doneBtn:hover{
+    background-color: rgb(219, 255, 195);
+    color: white;
+}
